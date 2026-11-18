@@ -1,4 +1,4 @@
-const CACHE='convenio-limpieza-madrid-v1';
+const CACHE='convenio-ccoo-azul-v3';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./convenio-2026-2028-portada-ccoo.pdf'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));
