@@ -1,0 +1,25 @@
+{
+  "name": "Convenio Limpieza Madrid · CCOO Hábitat",
+  "short_name": "Convenio Limpieza",
+  "description": "Consulta y búsqueda local del convenio de limpieza de edificios y locales de Madrid 2026-2028.",
+  "lang": "es-ES",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#123b70",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
